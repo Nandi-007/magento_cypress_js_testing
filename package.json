@@ -1,0 +1,20 @@
+{
+  "name": "magento.softwaretestingboard",
+  "version": "1.0.0",
+  "description": "regression testing magento.softwaretestingboard ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^6.0.0",
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "webpack": "^5.89.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
