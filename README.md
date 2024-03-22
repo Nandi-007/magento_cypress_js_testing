@@ -11,7 +11,7 @@ Installation
 
 Clone the repository:
     
-    git clone https://github.com/your-username/your-cypress-magento-tests.git
+    git clone https://github.com/Nandi-007/magento_cypress_js_testing.git
 
 Navigate to the project folder:
 
